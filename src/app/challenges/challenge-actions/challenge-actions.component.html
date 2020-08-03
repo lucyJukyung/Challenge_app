@@ -1,0 +1,27 @@
+<FlexboxLayout> 
+  <Button 
+    height="60" 
+    class="btn btn-success btn-rounded-lg" 
+    text="Completed" 
+    (tap)="onAction('complete')" 
+    *ngIf="action !== 'complete'" 
+    [isEnabled]="!done"
+  ></Button> <!-- ngIf makes the button disappear IF it receive 'complete' vlaue to display a label(check icon) below-->
+  <StackLayout height="60" class="btn btn-success btn-rounded-lg" *ngIf="action === 'complete'">
+    <Label text="&#xf00c;" horizontalAlignment="center" class="fa btn-alt animate-btn">
+    </Label>
+  </StackLayout>
+  <Button 
+    height="60"  
+    class="btn btn-fail btn-rounded-lg" 
+    text="Faild" 
+    (tap)="onAction('fail')"
+    *ngIf="action !== 'fail'"
+    [isEnabled]="!done"
+  ></Button>
+  <StackLayout height="60" class="btn btn-fail btn-rounded-lg" *ngIf="action === 'fail'">
+    <Label text="&#xf00d;" horizontalAlignment="center" class="fa btn-alt animate-btn">
+    </Label>
+  </StackLayout>
+  <Button height="60" class="btn btn-flat btn-rounded-lg" [text]="cancelText" (tap)="onAction('cancel')"></Button>
+</FlexboxLayout>

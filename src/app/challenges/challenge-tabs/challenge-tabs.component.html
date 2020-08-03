@@ -1,0 +1,13 @@
+<TabView androidTabsPosition="bottom">
+  <StackLayout *tabItem="{ title: 'Today', iconSource: 'res://check'}">
+    <page-router-outlet name="today"> </page-router-outlet>
+  </StackLayout>
+  <StackLayout *tabItem="{ title: 'Current Challenge', iconSource: 'res://trophy' }">
+    <page-router-outlet name="currentChallenge"> </page-router-outlet>
+  </StackLayout>
+</TabView>
+<!-- isLoading animation doesn't work with <page-router-outlet> on ios (android is okay) for some reason. 
+<FlexboxLayout justifyContent="center" alignItems="center">
+  <ActivityIndicator [busy]="isLoading"></ActivityIndicator>
+</FlexboxLayout>
+-->

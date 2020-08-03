@@ -1,0 +1,7 @@
+/Users/lucy/code/navigation-08-implementing-logout-logic/platforms/android/app/src/main/assets/app/2.js
+/Users/lucy/code/navigation-08-implementing-logout-logic/platforms/android/app/src/main/assets/app/runtime.js
+/Users/lucy/code/navigation-08-implementing-logout-logic/platforms/android/app/src/main/assets/app/bundle.js
+/Users/lucy/code/navigation-08-implementing-logout-logic/platforms/android/app/src/main/assets/app/vendor.js
+/Users/lucy/code/navigation-08-implementing-logout-logic/platforms/android/app/src/main/assets/app/tns-java-classes.js
+/Users/lucy/code/navigation-08-implementing-logout-logic/platforms/android/app/src/main/assets/app/0.js
+/Users/lucy/code/navigation-08-implementing-logout-logic/platforms/android/app/src/main/assets/app/1.js

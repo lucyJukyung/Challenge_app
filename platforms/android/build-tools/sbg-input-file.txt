@@ -1,0 +1,1 @@
+/Users/lucy/code/navigation-08-implementing-logout-logic/platforms/android/app/src/main/assets/app
